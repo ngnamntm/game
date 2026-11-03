@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{margin:0;font-family:'Nunito',sans-serif;background:#14231a;color:#f3ead2;overscroll-behavior:none;touch-action:manipulation}
+canvas{touch-action:none;image-rendering:auto}
+.btn{@apply rounded-lg px-4 py-2 font-extrabold border-2 border-amber-900 bg-amber-500 text-amber-950 shadow-[0_3px_0_#78350f] active:translate-y-[2px] active:shadow-none disabled:opacity-40 disabled:pointer-events-none transition}
+.btn-dark{@apply bg-stone-800 text-amber-100 border-stone-950 shadow-[0_3px_0_#0c0a09]}
+.panel{@apply rounded-xl border-2 border-amber-900/70 bg-stone-900/90 backdrop-blur}
